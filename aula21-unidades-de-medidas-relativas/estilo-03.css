@@ -1,0 +1,6 @@
+.box {
+    background: #999;
+    height: 20vh;
+}
+
+/* A unidade de medida vh (viewport) é o espaço da altura página visível para o usuário. O vw é a denição da largura disponível e visível para o usuário.*/

@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background: green;
+    margin: auto;
+    margin-top: 200px;
+    transition: all 0.5s linear;
+}
+
+.exemplo:hover {
+    width: 600px;
+    background: red;
+}
+
+a {
+    color: #000;
+    transition: all 0.5s linear;
+    text-decoration: none;
+    background: green;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+a:hover {
+    color: red;
+    background: rgb(113, 180, 113);
+}

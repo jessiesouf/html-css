@@ -1,0 +1,23 @@
+table {
+    width: 600px;
+}
+
+table thead {
+    background: #919691;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    font-weight: normal;
+}
+
+tbody tr:hover {
+    background: #cad1ca;
+}
+
+tbody tr:nth-child(even) {
+    background: #ddd;
+}

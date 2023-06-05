@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 50px;
+    background: #999999;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px;
+    color: #000;
+}
+
+ a:hover {
+    text-decoration: underline;
+    
+}
+
+footer {
+    height: 100px;
+    background: #cccccc;
+}

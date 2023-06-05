@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background: #999;
+}
+
+/*Unidades de medidas absolutas
+pt: Utilizado para tamanho de fontes
+in: Unidade de medidas em polegadas
+cm e mm: Unidade de medidas em centímetro e milímetro
+*/
+
+/*As unidades de medidas absolutas são medidas que não são influenciadas por nada */

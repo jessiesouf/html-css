@@ -1,0 +1,11 @@
+.hexa {
+    background: #ff0;
+}
+
+.rgb {
+    background: rgb(7, 121, 209);
+}
+
+.hsl {
+    background: hsl(50%, 0, 0);
+}

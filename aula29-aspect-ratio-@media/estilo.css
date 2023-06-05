@@ -1,0 +1,17 @@
+@media (aspect-ratio: 1/1) { /*Essa funcionalidade faz com que quando a tela atingir a proporção quadrado perfeito, aplique as condições declaradas abaixo*/
+    body {
+        background: #ff0000;
+    }
+}
+
+@media (min-aspect-ratio: 4/2) { /*Neste caso as condições serão aplicadas quando a altura atingir o dobro da largura*/
+    body {
+        background: #ea00ff;
+    }
+}
+
+@media (max-aspect-ratio: 1/2) {
+    body {
+        background: #00d9ff;
+    }
+}

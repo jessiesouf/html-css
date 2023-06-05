@@ -1,0 +1,17 @@
+#titulo01 {
+    color: red;
+}
+
+.titulo02 {
+    color: green;
+}
+
+/* 
+    #ID_DO_ELEMENTO utilização de ID
+
+    .CLASS_DO_ELEMENTO utilização de class 
+
+     ELEMENTO, OUTROELEMENTO estilização de mais de um elemento 
+     
+     ELEMENTO OUTROELEMENTO estilização de um elemento aninhado dentro de outro, por exemplo ul e li
+*/

@@ -1,0 +1,32 @@
+body {
+    background: greenyellow;
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+    border: 2px solid #000;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media only print { /* Propriedade utilizada para quando o usuário imprimir um documento com alterações originais do site */
+    h1 {
+        font-size: 70px;
+        font-weight: normal;
+    }
+    table, td {
+        border: 0;
+    }
+}
+
+@media only print {
+    h1 {
+        display: none;
+    }
+}

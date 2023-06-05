@@ -1,0 +1,9 @@
+.exemplo {
+    width: 5000px;
+    height:200px;
+    background: blue;
+    background: linear-gradient(90deg, white, blue);
+    /* background:-moz-linear-gradient(white, blue); 
+    background:-o-linear-gradient(white, blue); 
+    Isso corresponde a proteções para compatibilidade com outros navegadores */
+}

@@ -1,0 +1,17 @@
+.box {
+    width: 50%;
+    height: 400px;
+    background: #999;
+}
+
+.box-interno {
+    width: 50%;
+    height: 50%;
+    background: #333;
+}
+
+/* A unidade de medida em porcentagem é muito utilizada em estruturas do site, a porcentagem definida no elemento ocupa o espaço disponível que ele tem. */
+
+/* 
+A unidade de medida EX é baseada no tipo de fonte utilizada. */
+

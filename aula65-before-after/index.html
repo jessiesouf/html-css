@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletor Before e After</title>
+    <style>
+        /*A diferença entre o before e o after é que, no after as aplicações são feitas após o elemento, e no before são aplicadas antes do elemento */
+       
+        body {
+            text-align: center;
+        }
+
+        div {
+            background: #00ff00;
+            padding: 20px;
+        }
+
+       div::before {
+            content:">";
+            background: #ff0000;
+            border: 1px solid #000;
+        }
+
+        div::after {
+            content: ""; 
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #ff0000;
+        } /*Em caso de before e after o content""; deve sempre estar presente, idependente de conteúdo nele ou não*/
+
+        
+    </style>
+</head>
+<body>
+    <div>Texto 1</div>
+</body>
+</html>

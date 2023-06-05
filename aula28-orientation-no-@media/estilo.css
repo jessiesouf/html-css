@@ -1,0 +1,21 @@
+body {
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #000;
+}
+
+@media (orientation: landscape) { /* Orientação na horizontal */
+    body {
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait) { /* Orientação na vertical */
+    body {
+        flex-direction: column;
+    }
+}

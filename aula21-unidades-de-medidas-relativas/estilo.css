@@ -1,0 +1,17 @@
+body {
+    font-size: 20px;
+}
+
+.box {
+    font-size: 30px; /* Modificando este valor, acarreta uma alteração nas unidades de medida EM, pois a cada 1em, é o equivalente ao valor atribuído ao elemento pai */
+}
+
+.box-interno {
+    width: 10em; 
+    height: 10em;
+    background: #999; 
+}
+
+/* A unidade de medida relativa em sempre é baseado no fonte size do item do elemento pai */
+
+/* A diferença entre as unidades de medida EM para REM é que o item EM é baseado a um elemento superior imediato. O REM é baseado no primeiro elemento da estrutura, no caso a tag HTML. */

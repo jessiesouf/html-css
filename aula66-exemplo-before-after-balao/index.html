@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Before e After Balão</title>
+    <style>
+        .balao {
+            background: #0000ff;
+            display: inline-block;
+            color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .balao::after {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            margin-left: 20px;
+            top: 25px;
+            border: 20px solid;
+            border-color: transparent transparent transparent #0000ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="balao">Olá, tudo bem? <br> Como vai? <br> Mais uma linha sdrsdsdgdfhdhfghfghfg</div>
+</body>
+</html>
